@@ -1,7 +1,7 @@
 "use strict";
-var firstName = 'Aleksandar';
-var bool = false;
-var myNum = 8;
+let firstName = 'Aleksandar';
+let bool = false;
+let myNum = 8;
 firstName = 'Bob';
 firstName = 8;
 // firstName = false;

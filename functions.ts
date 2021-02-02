@@ -17,3 +17,4 @@ const returningPromise = (num: number): Promise<number> => {
 };
 
 const returnValue2 = returningPromise(2);
+

@@ -13,3 +13,9 @@ const returningPromise = (num) => {
     });
 };
 const returnValue2 = returningPromise(2);
+const higherOrderFunc = (callback) => {
+    callback('hello');
+};
+higherOrderFunc((title) => {
+    return true;
+});

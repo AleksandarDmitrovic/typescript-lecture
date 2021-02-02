@@ -18,3 +18,10 @@ const returningPromise = (num: number): Promise<number> => {
 
 const returnValue2 = returningPromise(2);
 
+const higherOrderFunc = (callback: (a: string) => boolean): void => {
+  callback('hello');
+};
+
+higherOrderFunc((title: string) => {
+  return true;
+});

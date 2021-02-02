@@ -21,6 +21,8 @@ const myObj: IUser = {
   friend: { deepDarkSecret: false, voice: 'light' }
 };
 
+const myObjCopy: IUser = { ...myObj, name: 'Carol' };
+
 const myUsers: IUser[] = [];
 
 myUsers.push(myObj);
